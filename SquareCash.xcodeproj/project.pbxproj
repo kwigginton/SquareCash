@@ -19,7 +19,59 @@
 		EF79A3AF1753AFEF00D571F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF79A3AE1753AFEF00D571F6 /* ViewController.m */; };
 		EF79A3B21753AFEF00D571F6 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF79A3B01753AFEF00D571F6 /* ViewController_iPhone.xib */; };
 		EF79A3B51753AFEF00D571F6 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF79A3B31753AFEF00D571F6 /* ViewController_iPad.xib */; };
+		EF79A3BC1753B19200D571F6 /* Square_Logo_Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = EF79A3BB1753B19200D571F6 /* Square_Logo_Portrait.png */; };
+		EFC11F7A17653EC300CDEA77 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFC11F7917653EC300CDEA77 /* MessageUI.framework */; };
+		EFC11F7C176630DD00CDEA77 /* Square_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EFC11F7B176630DD00CDEA77 /* Square_icon.png */; };
+		EFC11F7E1766318300CDEA77 /* Square_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EFC11F7D1766318300CDEA77 /* Square_icon.png */; };
+		EFC1931B176FCE4A008B176C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFC1931A176FCE4A008B176C /* CFNetwork.framework */; };
+		EFCAB121176FDFCC00B147D6 /* libMailCore-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EFCAB118176FD3CB00B147D6 /* libMailCore-ios.a */; };
+		EFCAB12317721DFA00B147D6 /* gear.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCAB12217721DFA00B147D6 /* gear.png */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFCAB115176FD3CB00B147D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFCAB10D176FD3CA00B147D6 /* mailcore2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C64EA537169E772200778456;
+			remoteInfo = "static mailcore2 osx";
+		};
+		EFCAB117176FD3CB00B147D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFCAB10D176FD3CA00B147D6 /* mailcore2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C6BA2C191705F4E6003F0E9E;
+			remoteInfo = "static mailcore2 ios";
+		};
+		EFCAB119176FD3CB00B147D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFCAB10D176FD3CA00B147D6 /* mailcore2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C64EA78C169F259200778456;
+			remoteInfo = tests;
+		};
+		EFCAB11B176FD3CB00B147D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFCAB10D176FD3CA00B147D6 /* mailcore2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C6A81B911706840C00882C15;
+			remoteInfo = "test-ios";
+		};
+		EFCAB11D176FD3CB00B147D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFCAB10D176FD3CA00B147D6 /* mailcore2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C6BD288D170BD71100A91AC1;
+			remoteInfo = "mailcore osx";
+		};
+		EFCAB11F176FD3EE00B147D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFCAB10D176FD3CA00B147D6 /* mailcore2.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C6BA2B091705F4E6003F0E9E;
+			remoteInfo = "static mailcore2 ios";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		EF79A3921753AFEF00D571F6 /* SquareCash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SquareCash.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,6 +91,13 @@
 		EF79A3AE1753AFEF00D571F6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EF79A3B11753AFEF00D571F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		EF79A3B41753AFEF00D571F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		EF79A3BB1753B19200D571F6 /* Square_Logo_Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Square_Logo_Portrait.png; sourceTree = "<group>"; };
+		EFC11F7917653EC300CDEA77 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		EFC11F7B176630DD00CDEA77 /* Square_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Square_icon.png; sourceTree = "<group>"; };
+		EFC11F7D1766318300CDEA77 /* Square_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Square_icon.png; sourceTree = "<group>"; };
+		EFC1931A176FCE4A008B176C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		EFCAB10D176FD3CA00B147D6 /* mailcore2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = mailcore2.xcodeproj; path = "../mailcore2/build-mac/mailcore2.xcodeproj"; sourceTree = "<group>"; };
+		EFCAB12217721DFA00B147D6 /* gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gear.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +105,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFCAB121176FDFCC00B147D6 /* libMailCore-ios.a in Frameworks */,
+				EFC1931B176FCE4A008B176C /* CFNetwork.framework in Frameworks */,
+				EFC11F7A17653EC300CDEA77 /* MessageUI.framework in Frameworks */,
 				EF79A3961753AFEF00D571F6 /* UIKit.framework in Frameworks */,
 				EF79A3981753AFEF00D571F6 /* Foundation.framework in Frameworks */,
 				EF79A39A1753AFEF00D571F6 /* CoreGraphics.framework in Frameworks */,
@@ -58,6 +120,8 @@
 		EF79A3891753AFEF00D571F6 = {
 			isa = PBXGroup;
 			children = (
+				EFCAB10D176FD3CA00B147D6 /* mailcore2.xcodeproj */,
+				EFC11F7D1766318300CDEA77 /* Square_icon.png */,
 				EF79A39B1753AFEF00D571F6 /* SquareCash */,
 				EF79A3941753AFEF00D571F6 /* Frameworks */,
 				EF79A3931753AFEF00D571F6 /* Products */,
@@ -75,6 +139,8 @@
 		EF79A3941753AFEF00D571F6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EFC1931A176FCE4A008B176C /* CFNetwork.framework */,
+				EFC11F7917653EC300CDEA77 /* MessageUI.framework */,
 				EF79A3951753AFEF00D571F6 /* UIKit.framework */,
 				EF79A3971753AFEF00D571F6 /* Foundation.framework */,
 				EF79A3991753AFEF00D571F6 /* CoreGraphics.framework */,
@@ -99,6 +165,9 @@
 		EF79A39C1753AFEF00D571F6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EFCAB12217721DFA00B147D6 /* gear.png */,
+				EFC11F7B176630DD00CDEA77 /* Square_icon.png */,
+				EF79A3BB1753B19200D571F6 /* Square_Logo_Portrait.png */,
 				EF79A39D1753AFEF00D571F6 /* SquareCash-Info.plist */,
 				EF79A39E1753AFEF00D571F6 /* InfoPlist.strings */,
 				EF79A3A11753AFEF00D571F6 /* main.m */,
@@ -108,6 +177,18 @@
 				EF79A3AB1753AFEF00D571F6 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFCAB10E176FD3CA00B147D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFCAB116176FD3CB00B147D6 /* libMailCore.a */,
+				EFCAB118176FD3CB00B147D6 /* libMailCore-ios.a */,
+				EFCAB11A176FD3CB00B147D6 /* tests */,
+				EFCAB11C176FD3CB00B147D6 /* test-ios.app */,
+				EFCAB11E176FD3CB00B147D6 /* MailCore.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +205,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				EFCAB120176FD3EE00B147D6 /* PBXTargetDependency */,
 			);
 			name = SquareCash;
 			productName = SquareCash;
@@ -149,12 +231,56 @@
 			mainGroup = EF79A3891753AFEF00D571F6;
 			productRefGroup = EF79A3931753AFEF00D571F6 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = EFCAB10E176FD3CA00B147D6 /* Products */;
+					ProjectRef = EFCAB10D176FD3CA00B147D6 /* mailcore2.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				EF79A3911753AFEF00D571F6 /* SquareCash */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		EFCAB116176FD3CB00B147D6 /* libMailCore.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMailCore.a;
+			remoteRef = EFCAB115176FD3CB00B147D6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EFCAB118176FD3CB00B147D6 /* libMailCore-ios.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libMailCore-ios.a";
+			remoteRef = EFCAB117176FD3CB00B147D6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EFCAB11A176FD3CB00B147D6 /* tests */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = tests;
+			remoteRef = EFCAB119176FD3CB00B147D6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EFCAB11C176FD3CB00B147D6 /* test-ios.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "test-ios.app";
+			remoteRef = EFCAB11B176FD3CB00B147D6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EFCAB11E176FD3CB00B147D6 /* MailCore.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MailCore.framework;
+			remoteRef = EFCAB11D176FD3CB00B147D6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		EF79A3901753AFEF00D571F6 /* Resources */ = {
@@ -167,6 +293,10 @@
 				EF79A3AC1753AFEF00D571F6 /* Default-568h@2x.png in Resources */,
 				EF79A3B21753AFEF00D571F6 /* ViewController_iPhone.xib in Resources */,
 				EF79A3B51753AFEF00D571F6 /* ViewController_iPad.xib in Resources */,
+				EF79A3BC1753B19200D571F6 /* Square_Logo_Portrait.png in Resources */,
+				EFC11F7C176630DD00CDEA77 /* Square_icon.png in Resources */,
+				EFC11F7E1766318300CDEA77 /* Square_icon.png in Resources */,
+				EFCAB12317721DFA00B147D6 /* gear.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,6 +314,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFCAB120176FD3EE00B147D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "static mailcore2 ios";
+			targetProxy = EFCAB11F176FD3EE00B147D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		EF79A39E1753AFEF00D571F6 /* InfoPlist.strings */ = {
@@ -225,6 +363,7 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Kenneth Wigginton";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -240,8 +379,9 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "B97EB983-29BA-459F-8651-3BD5F30EC48B";
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -257,6 +397,7 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Kenneth Wigginton";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -265,8 +406,9 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "B97EB983-29BA-459F-8651-3BD5F30EC48B";
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -274,10 +416,27 @@
 		EF79A3B91753AFEF00D571F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SquareCash/SquareCash-Prefix.pch";
 				INFOPLIST_FILE = "SquareCash/SquareCash-Info.plist";
+				LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER = YES;
+				OTHER_LDFLAGS = (
+					"-lctemplate-ios",
+					"-letpan-ios",
+					"-licudata",
+					"-licui18n",
+					"-licuuc",
+					"-lxml2",
+					"-lsasl2",
+					"-liconv",
+					"-ltidy",
+					"-lstdc++",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -285,10 +444,27 @@
 		EF79A3BA1753AFEF00D571F6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SquareCash/SquareCash-Prefix.pch";
 				INFOPLIST_FILE = "SquareCash/SquareCash-Info.plist";
+				LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER = YES;
+				OTHER_LDFLAGS = (
+					"-lctemplate-ios",
+					"-letpan-ios",
+					"-licudata",
+					"-licui18n",
+					"-licuuc",
+					"-lxml2",
+					"-lsasl2",
+					"-liconv",
+					"-ltidy",
+					"-lstdc++",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -312,6 +488,7 @@
 				EF79A3BA1753AFEF00D571F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

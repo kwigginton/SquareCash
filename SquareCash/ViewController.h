@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MailCore/mailcore.h>
 
-@interface ViewController : UIViewController
-
+@interface ViewController : UIViewController<UITextFieldDelegate, UIAlertViewDelegate>
+@property IBOutlet UITextField* toField;
+@property IBOutlet UITextField* amountField;
+@property IBOutlet UITextField* reasonField;
+@property IBOutlet UIImageView* settingsButton;
+@property NSString *pw;
+@property NSString *email;
+-(IBAction)sendCash;
+-(IBAction)settingsButtonPressed;
 @end
